@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="maciej_kopa_230451.css" ?>
+<!--
+<!DOCTYPE root SYSTEM "230451.dtd"[
+<!ENTITY creatorName "Maciej">
+<!ENTITY creatorSurname "Kopa">
+<!ENTITY creatorID "230451">
+<!ENTITY date_of_last_modification "22.11.2020">]>
+-->
+<store>
+    <author>
+		<!--
+		<name>&creatorName;</name>
+		<surname>&creatorSurname;</surname>
+		<IDno>&creatorID;</IDno>
+		<date_of_mod>&date_of_last_modification;</date_of_mod>
+		-->
+		<name>Maciej</name>
+		<surname>Kopa</surname>
+		<IDno>230451</IDno>
+		<date_of_last_modification>22/11/2020</date_of_last_modification>
+		<faculty course="Information Technology" university="TUL">IFE</faculty>
+    </author>
+    
+    <makes>
+		<make id='m1' origin='China'>ASUS</make>
+		<make id='m2' origin='China'>Acer</make>
+		<make id='m3' origin='China'>Huawei</make>
+		<make id='m4' origin='South Korea'>LG</make>
+		<make id='m5' origin='USA'>Apple</make>
+		<make id='m6' origin='USA'>HP</make>
+		<make id='m7' origin='China'>Lenovo</make>
+		<make id='m8' origin='USA'>Dell</make>
+		<make id='m9' origin='China'>MSI</make>
+    </makes>
+	
+    <laptops>
+		<laptop no='1'>
+			<makeInList idref='m1'/>
+			<fullName>ASUS TUF Gaming FX505GT</fullName>
+			<ean>588288</ean>
+			<specification>
+				<CPU>Intel Core i5-9300H</CPU>
+				<RAM>16GB</RAM>
+				<graphics>NVIDIA GeForce GTX 1650</graphics>
+				<battery unit='mAh'>4212</battery>
+				<screen>
+					<type>Mat</type>
+					<resolutions unit='inch'>15,6</size>
+				</screen>
+			</specification>
+			<premiere>05/06/2020</premiere>
+			<price currency='PLN'>4099,00</price>
+		</laptop>
+		<!-- EDIT THE REST 
+		<laptop no='2'>
+			<makeInList idref='m1'/>
+			<fullName>ASUS D413DA-EK260T</fullName>
+			<ID>588471</ID>
+			<specification>
+				<CPU>AMD Ryzen™ 3 3250U</CPU>
+				<RAM type='GB'>8</RAM>
+				<GraphicsCard>AMD Radeon™ Graphics</GraphicsCard>
+				<battery type='mAh'>3500</battery>
+				<screen>
+					<type>Mat</type>
+					<size type='inch'>14,0</size>
+				</screen>
+			</specification>
+			<premiere>04/02/2020</premiere>
+			<price type='PLN'>2199,00</price>	
+		</laptop>
+		
+		<laptop no='3'>
+			<makeInList idref='m1'/>
+			<fullName>ASUS VivoBook R R564JA</fullName>
+			<ID>594889</ID>
+			<specification>
+				<CPU>Intel Core i3-1005G1</CPU>
+				<RAM type='GB'>8</RAM>
+				<GraphicsCard>Intel UHD Graphics</GraphicsCard>
+				<battery type='mAh'>4850</battery>
+				<screen>
+					<type>Mat</type>
+					<size type='inch'>15,6</size>
+				</screen>
+			</specification>
+			<premiere>07/07/2020</premiere>
+			<price type='PLN'>2499,00</price>	
+		</laptop>
+		
+		<laptop no='4'>
+			<makeInList idref='m2'/>
+			<fullName>Acer Aspire 5</fullName>
+			<ID>575758</ID>
+			<specification>
+				<CPU>Intel Core i5-1035G1</CPU>
+				<RAM type='GB'>12</RAM>
+				<GraphicsCard>NVIDIA GeForce MX350</GraphicsCard>
+				<battery type='mAh'>4471</battery>
+				<screen>
+					<type>Mat</type>
+					<size type='inch'>15,6</size>
+				</screen>
+			</specification>
+			<premiere>10/08/2020</premiere>
+			<price type='PLN'>3549,00</price>	
+		</laptop>
+		
+		<laptop no='5'>
+			<makeInList idref='m2'/>
+			<fullName>Acer Swift 3</fullName>
+			<ID>563179</ID>
+			<specification>
+				<CPU>AMD Ryzen™ 5 4500U</CPU>
+				<RAM type='GB'>16</RAM>
+				<GraphicsCard>AMD Radeon™ Graphic</GraphicsCard>
+				<battery type='mAh'>3203</battery>
+				<screen>
+					<type>Mat</type>
+					<size type='inch'>14,0</size>
+				</screen>
+			</specification>
+			<premiere>20/09/2020</premiere>
+			<price type='PLN'>3599,0</price>	
+		</laptop>
+		
+		<laptop no='6'>
+			<makeInList idref='m3'/>
+			<fullName>Huawei MateBook D 14</fullName>
+			<ID>557204</ID>
+			<specification>
+				<CPU>AMD Ryzen™ 5 3500U</CPU>
+				<RAM type='GB'>8</RAM>
+				<GraphicsCard>AMD Radeon™ Vega 8</GraphicsCard>
+				<battery type='mAh'>3665</battery>
+				<screen>
+					<type>Mat</type>
+					<size type='inch'>14,0</size>
+				</screen>
+			</specification>
+			<premiere>17/02/2020</premiere>
+			<price type='PLN'>2699,00</price>	
+		</laptop>
+		
+		<laptop no='7'>
+			<makeInList idref='m3'/>
+			<fullName>Huawei MateBook D 15</fullName>
+			<ID>541793</ID>
+			<specification>
+				<CPU>AMD Ryzen™ 5 3500U</CPU>
+				<RAM type='GB'>8</RAM>
+				<GraphicsCard>AMD Radeon™ Vega 8</GraphicsCard>
+				<battery type='mAh'>3665</battery>
+				<screen>
+					<type>Mat</type>
+					<size type='inch'>15,6</size>
+				</screen>
+			</specification>
+			<premiere>20/03/2020</premiere>
+			<price type='PLN'>3049,00</price>	
+		</laptop>
+		
+		<laptop no='8'>
+			<makeInList idref='m4'/>
+			<fullName>LG GRAM 17Z90N</fullName>
+			<ID>568939</ID>
+			<specification>
+				<CPU>Intel Core i7-1065G7</CPU>
+				<RAM type='GB'>8</RAM>
+				<GraphicsCard>Intel Iris Plus Graphics</GraphicsCard>
+				<battery type='mAh'>5040</battery>
+				<screen>
+					<type>Glare</type>
+					<size type='inch'>17</size>
+				</screen>
+			</specification>
+			<premiere>29/01/2020</premiere>
+			<price type='PLN'>7299,00</price>	
+		</laptop>
+		
+		<laptop no='9'>
+			<makeInList idref='m2'/>
+			<fullName>Acer Nitro 5</fullName>
+			<ID>571702</ID>
+			<specification>
+				<CPU>Intel® Core™ i5-10300H</CPU>
+				<RAM type='GB'>16</RAM>
+				<GraphicsCard>NVIDIA GeForce GTX 1650Ti</GraphicsCard>
+				<battery type='mAh'>3405</battery>
+				<screen>
+					<type>Mat</type>
+					<size type='inch'>15,6</size>
+				</screen>
+			</specification>
+			<premiere></premiere>
+			<price type='PLN'>4049,00</price>	
+		</laptop>
+		
+		<laptop no='10'>
+			<makeInList idref='m5'/>
+			<fullName>Apple MacBook Air</fullName>
+			<ID>553995</ID>
+			<specification>
+				<CPU>Intel Core i5-1030NG7</CPU>
+				<RAM type='GB'>8</RAM>
+				<GraphicsCard>Intel Iris Plus Graphics</GraphicsCard>
+				<battery type='mAh'>2890</battery>
+				<screen>
+					<type>Glare</type>
+					<size type='inch'>13,3</size>
+				</screen>
+			</specification>
+			<premiere>03/03/2019</premiere>
+			<price type='PLN'>5399,00</price>	
+		</laptop>
+		
+		<laptop no='11'>
+			<makeInList idref='m6'/>
+			<fullName>HP 15s</fullName>
+			<ID>582145</ID>
+			<specification>
+				<CPU>AMD Ryzen™ 5 3500U</CPU>
+				<RAM type='GB'>16</RAM>
+				<GraphicsCard>AMD Radeon™ Vega 8</GraphicsCard>
+				<battery type='mAh'>3900</battery>
+				<screen>
+					<type>Mat</type>
+					<size type='inch'>15,6</size>
+				</screen>
+			</specification>
+			<premiere>28/09/2020</premiere>
+			<price type='PLN'>2999,00</price>	
+		</laptop>
+		
+		<laptop no='12'>
+			<makeInList idref='m6'/>
+			<fullName>HP 14s</fullName>
+			<ID>583992</ID>
+			<specification>
+				<CPU>Intel Core i3-1005G1</CPU>
+				<RAM type='GB'>8</RAM>
+				<GraphicsCard>Intel UHD Graphics</GraphicsCard>
+				<battery type='mAh'></battery>
+				<screen>
+					<type>Mat</type>
+					<size type='inch'>14,0</size>
+				</screen>
+			</specification>
+			<premiere>21/07/2020</premiere>
+			<price type='PLN'>2449,00</price>	
+		</laptop>
+		
+		<laptop no='13'>
+			<makeInList idref='m7'/>
+			<fullName>Lenovo IdeaPad L340-17</fullName>
+			<ID>570331</ID>
+			<specification>
+				<CPU>Intel Core i5-9300HF</CPU>
+				<RAM type='GB'>16</RAM>
+				<GraphicsCard>NVIDIA GeForce GTX 1650</GraphicsCard>
+				<battery type='mAh'>4000</battery>
+				<screen>
+					<type>Mat</type>
+					<size type='inch'>17,3</size>
+				</screen>
+			</specification>
+			<premiere>20/01/2020</premiere>
+			<price type='PLN'>3699,00</price>	
+		</laptop>
+		
+		<laptop no='14'>
+			<makeInList idref='m8'/>
+			<fullName>Dell Inspiron 5505</fullName>
+			<ID>572924</ID>
+			<specification>
+				<CPU>AMD Ryzen™ 5 4500U</CPU>
+				<RAM type='GB'>16</RAM>
+				<GraphicsCard>AMD Radeon™ Graphics</GraphicsCard>
+				<battery type='mAh'>3378</battery>
+				<screen>
+					<type>Mat</type>
+					<size type='inch'>15,6</size>
+				</screen>
+			</specification>
+			<premiere>23/04/2020</premiere>
+			<price type='PLN'>3899,00</price>	
+		</laptop>
+		
+		<laptop no='15'>
+			<makeInList idref='m1'/>
+			<fullName>ASUS D413DA-EK260T</fullName>
+			<ID>588471</ID>
+			<specification>
+				<CPU>AMD Ryzen™ 3 3250U</CPU>
+				<RAM type='GB'>8</RAM>
+				<GraphicsCard>AMD Radeon™ Graphics</GraphicsCard>
+				<battery type='mAh'>3299</battery>
+				<screen>
+					<type>Mat</type>
+					<size type='inch'>14,0</size>
+				</screen>
+			</specification>
+			<premiere>01/03/2020</premiere>
+			<price type='PLN'>2199,00</price>	
+		</laptop>
+		
+		<laptop no='16'>
+			<makeInList idref='m7'/>
+			<fullName>Lenovo IdeaPad 3-15</fullName>
+			<ID>576974</ID>
+			<specification>
+				<CPU>Intel Core i5-1035G1</CPU>
+				<RAM type='GB'>20</RAM>
+				<GraphicsCard>Intel UHD Graphics</GraphicsCard>
+				<battery type='mAh'>4610</battery>
+				<screen>
+					<type>Mat</type>
+					<size type='inch'>15,6</size>
+				</screen>
+			</specification>
+			<premiere>06/07/2020</premiere>
+			<price type='PLN'>3249,00</price>	
+		</laptop>
+		
+		<laptop no='17'>
+			<makeInList idref='m3'/>
+			<fullName>Huawei MateBook 13</fullName>
+			<ID>574554</ID>
+			<specification>
+				<CPU>AMD Ryzen™ 5 3500U</CPU>
+				<RAM type='GB'>8</RAM>
+				<GraphicsCard>AMD Radeon™ Vega 8</GraphicsCard>
+				<battery type='mAh'>3660</battery>
+				<screen>
+					<type>Glare</type>
+					<size type='inch'>13,0</size>
+				</screen>
+			</specification>
+			<premiere>09/09/2020</premiere>
+			<price type='PLN'>2979,00</price>	
+		</laptop>
+		
+		<laptop no='18'>
+			<makeInList idref='m2'/>
+			<fullName>Acer Swift 3</fullName>
+			<ID>581247</ID>
+			<specification>
+				<CPU>AMD Ryzen™ 3 4300U</CPU>
+				<RAM type='GB'>8</RAM>
+				<GraphicsCard>AMD Radeon™ Graphics</GraphicsCard>
+				<battery type='mAh'>3660</battery>
+				<screen>
+					<type>Mat</type>
+					<size type='inch'>14,0</size>
+				</screen>
+			</specification>
+			<premiere>07/08/2020</premiere>
+			<price type='PLN'>2699,00</price>	
+		</laptop>
+		
+		<laptop no='19'>
+			<makeInList idref='m8'/>
+			<fullName>Dell Vostro 3490</fullName>
+			<ID>520646</ID>
+			<specification>
+				<CPU>Intel Core i5-10210U</CPU>
+				<RAM type='GB'>8</RAM>
+				<GraphicsCard>Intel UHD Graphics</GraphicsCard>
+				<battery type='mAh'>3660</battery>
+				<screen>
+					<type>Mat</type>
+					<size type='inch'>14,0</size>
+				</screen>
+			</specification>
+			<premiere>28/03/2020</premiere>
+			<price type='PLN'>3399,00</price>	
+		</laptop>
+		
+		<laptop no='20'>
+			<makeInList idref='m6'/>
+			<fullName>HP ENVY 13 x360</fullName>
+			<ID>513826</ID>
+			<specification>
+				<CPU>AMD Ryzen™ 7 3700U</CPU>
+				<RAM type='GB'>16</RAM>
+				<GraphicsCard>AMD Radeon™ RX Vega 10</GraphicsCard>
+				<battery type='mAh'>3454</battery>
+				<screen>
+					<type>Glare</type>
+					<size type='inch'>13,3</size>
+				</screen>
+			</specification>
+			<premiere>12/11/2019</premiere>
+			<price type='PLN'>4399,00</price>	
+		</laptop>
+		
+		<laptop no='21'>
+			<makeInList idref='m9'/>
+			<fullName>MSI GL65</fullName>
+			<ID>559979</ID>
+			<specification>
+				<CPU>Intel® Core™ i5-10300H</CPU>
+				<RAM type='GB'>8</RAM>
+				<GraphicsCard>NVIDIA GeForce GTX 1650</GraphicsCard>
+				<battery type='mAh'>3834</battery>
+				<screen>
+					<type>Mat</type>
+					<size type='inch'>15,6</size>
+				</screen>
+			</specification>
+			<premiere>01/09/2020</premiere>
+			<price type='PLN'>3499,00</price>
+		</laptop> -->
+    </laptops>
+</store>

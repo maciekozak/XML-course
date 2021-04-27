@@ -1,0 +1,167 @@
+root:root
+{
+font-size:80%;               
+margin:0.5em;               
+font-family: Verdana;               
+
+}
+
+laptops::before
+{
+	content: "Our warehouse:";
+    display:block; 
+    font-weight:bolder; 
+    text-align:center; 
+    font-size:30px; 
+    background-color: #97BC62FF; 
+    color: #2C5F2D; 
+}
+
+
+makes
+{
+    display:block; 
+    font-weight:bolder; 
+    text-align:center; 
+    font-size:10px; 
+    background-color: #2C5F2D; 
+    color: #97BC62FF; 
+}
+
+makes > make[id='m1'], make[id='m3'], make[id='m5'], make[id='m7'], make[id='m9'] 
+{
+	color: white;
+}
+
+makes::before
+{
+	content: "Welcome to our site where you can find refurbished laptops, notebooks & ultrabooks!";
+	display: block;
+    font-weight:bolder; 
+    text-align:center; 
+    font-size:40px; 
+    background-color: #97BC62FF; 
+    color: #2C5F2D; 
+}
+
+laptop
+{
+	text-align:center;
+	display: inline-block; 
+	block-size: 210px;
+	inline-size: 30.3%;
+	border: 1px solid silver;              
+	margin:0.5em;              
+	padding:0.5em;              
+	background-color:whitesmoke;
+
+}	
+
+
+
+laptop {
+	counter-increment: list-number;
+}
+
+laptop::before {
+	
+	font-size:75%;	
+	content: counter(list-number);
+}
+
+/* laptop::before
+{
+	content: attr(no);
+	font-size:75%;
+}
+*/
+
+fullName 
+{ 
+    color:green;  
+    text-decoration: underline; 
+    font-weight:bolder; 
+    font-size:20px; 
+	display: inline;
+}
+
+ID
+{
+	font-style: italic;
+	display: block;
+	text-align: center;
+}
+
+ID::before
+{
+	content: "ID: ";
+	font-style: normal;
+}
+ 
+ID::after
+{
+	content: "Specification: ";
+	font-style: normal;
+	display: block;
+	color: #45453E;
+	text-decoration: underline; 
+	font-size: 105%;
+	text-align: left;
+	margin:1em; 
+}
+
+CPU, RAM, GraphicsCard, battery, type, size, premiere	
+{
+	font-style: italic;
+	display: table;
+	text-align: left;
+}
+
+CPU::before, RAM::before, GraphicsCard::before, battery::before, type::before, size::before	
+{
+	content: "√ ";
+}
+
+premiere::before	
+{
+	content: "√ Premiere: ";
+}
+
+RAM::after, battery::after, size::after, price::after
+{
+	content: " " attr(type);
+}
+
+price
+{
+	font-style: bold;
+	display: block;	
+	font-size: 150%;
+	text-align:right;
+}
+
+author
+{
+	display: block;
+	text-align:center;
+	font-size: 50%;
+}
+
+course::after
+{
+	content: " " attr(whatC);
+}
+University::after
+{
+	content: " " attr(whatU);
+}
+
+author:hover
+{
+	font-size: 150%;
+}
+
+fullName:hover
+{
+	color: red;
+}

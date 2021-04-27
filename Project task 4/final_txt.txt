@@ -1,0 +1,44 @@
+List of laptops:
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Availability:        EAN:             Brand:           Name:                             Net Price(PLN):     Tax(PLN;23%):       Gross Price(PLN):
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Yes                  PL583992         HP               HP 14s                            2449                563.27              3012.27             
+Yes                  DE557204         Huawei           Huawei MateBook D 14              9986.3              2296.85             12283.15            
+Yes                  PL563179         Acer             Acer Swift 3                      3599                827.77              4426.77             
+Yes                  PL520646         Dell             Dell Vostro 3490                  3399                781.77              4180.77             
+Yes                  DE513826         HP               HP ENVY 13 x360                   16276.3             3743.55             20019.85            
+Yes                  PL575758         Acer             Acer Aspire 5                     3549                816.27              4365.27             
+Yes                  DE581247         Acer             Acer Swift 3                      11470.75            2638.27             14109.02            
+Yes                  PL574554         Huawei           Huawei MateBook 13                2979                685.17              3664.17             
+Yes                  PL568939         LG               LG GRAM17Z90N                     7299                1678.77             8977.77             
+Yes                  PL576974         Lenovo           Lenovo IdeaPad 3-15               3249                747.27              3996.27             
+Yes                  DE582145         HP               HP 15s                            12745.75            2931.52             15677.27            
+Yes                  DE588471         Apple            Apple MacBook Air                 4436.3              1020.35             5456.65             
+Yes                  PL553995         Apple            Apple MacBook Air                 5399                1241.77             6640.77             
+Yes                  PL572924         Dell             Dell Inspiron 5505                3899                896.77              4795.77             
+Yes                  PL588471         ASUS             ASUS D413DA-EK260T                2199                505.77              2704.77             
+Yes                  PL588288         ASUS             ASUS TUF FX505GT                  4099                942.77              5041.77             
+Yes                  PL571702         Acer             Acer Nitro 5                      4049                931.27              4980.27             
+Yes                  DE541793         Huawei           Huawei MateBook D 15              4458.25             1025.4              5483.65             
+No                   DE541793         Huawei           Huawei MateBook D 15              12958.25            2980.4              15938.65            
+No                   DE570331         Lenovo           Lenovo IdeaPad L340-17            13686.3             3147.85             16834.15            
+No                   PL559979         MSI              MSI GL65                          3499                804.77              4303.77             
+
+
+      Summary
+-------------------------------------
+Total number of laptops: 21
+Total number of laptops in PL warehouse: 13
+Total number of laptops in DE warehouse: 8
+
+      Value in PLN/EUR/USD:
+-------------------------------------
+PLN: 49667
+EUR: 9796
+USD: 11996
+
+      Other stats:
+-------------------------------------
+Unavailable: 3
+Date of report: 12/21/2020

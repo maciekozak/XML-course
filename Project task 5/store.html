@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Cos tam tu se jest.">
+    <meta name="viewpoint" content="width=device-width, initial scale=1">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="nav-main">
+      <div class="btn-toggle-nav" onclick="toggleNav()"></div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Store</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a>/////////////////////</a></li>
+        <li><a href="#">Made by Maciej Kopa 230451</a></li>
+      </ul>
+    </nav>
+
+    <aside class="nav-sidebar">
+      <ul>
+        <li><span id="custom-text">No file chosen, yet.</span></li>
+        <li><input type="file" id="real-file" hidden="hidden" /></li>
+        <li><button class="loadBtn" type="button" id="custom-button">Load XML data</button></li>
+        <li><button class="saveBtn" type="button" onclick="saveFile()">Save XML data</a></li>
+        <li><button class="addBtn" type="button" onclick="addPosition()">Add new position</button></li>
+
+        
+      </ul>
+    </aside>
+    <div id = "demo"></div>
+    <script src="main.js"></script>
+  </body>
+  
+</html>

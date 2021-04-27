@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xs:schema
+		xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		targetNamespace="http://example.com/store"
+		xmlns:ms="http://example.com/store"
+		elementFormDefault="unqualified"
+		attributeFormDefault="unqualified"
+>
+	<xs:group name="personGroup">
+		<xs:sequence>
+			<xs:element name="name" type="ms:personType"/>
+			<xs:element name="surname" type="ms:personType"/>
+		</xs:sequence>
+	</xs:group>
+
+	<xs:simpleType name="personType">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="2"/>
+			<xs:maxLength value="25"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="authorType">
+		<xs:choice>
+			<xs:sequence>
+				<xs:group ref="ms:personGroup"/>
+				<xs:element name="IDno" type="xs:integer"/>
+				<xs:element name="date_of_last_modification" type="xs:date"/>
+				<xs:element name="faculty" type="ms:facultyType"/>
+			</xs:sequence>
+			<xs:sequence>
+				<xs:element name="IDno" type="xs:integer"/>
+				<xs:element name="date_of_last_modification" type="xs:date"/>
+				<xs:element name="faculty" type="ms:facultyType"/>
+			</xs:sequence>
+		</xs:choice>
+	</xs:complexType>
+
+	<xs:attributeGroup name="facultyGroup">
+		<xs:attribute name="course" type="ms:stringType" use="required"/>
+		<xs:attribute name="university" type="ms:stringType"/> <!-- maxlength -->
+	</xs:attributeGroup>
+
+	<xs:simpleType name="stringType">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="2"/>
+			<xs:maxLength value="100"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="facultyType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attributeGroup ref="ms:facultyGroup"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<!-- -->
+	<xs:complexType name="makeType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="id" type="xs:string" use="required"/>
+				<xs:attribute name="origin" type="xs:string"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:complexType name="makesType">
+		<xs:sequence>
+			<xs:element name="make" type="ms:makeType" minOccurs="0" maxOccurs="10">
+				<xs:key name="makeReference">
+					<xs:selector xpath="makes/make"/>
+					<xs:field xpath="@id"/>
+				</xs:key>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="makeInListType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="idref" type="xs:string"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:simpleType name="fullNameType">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="2"/>
+			<xs:maxLength value="150"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="eanType" final="#all">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="PL\d{6}"/>
+			<xs:pattern value="DE\d{6}"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="batteryType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="unit" type="xs:string" use="required" fixed="mAh"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:complexType name="resolutionType">
+		<xs:simpleContent>
+			<xs:extension base="xs:double">
+				<xs:attribute name="unit" type="xs:string" use="required" fixed="inch"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:complexType name="screenType">
+		<xs:all>
+			<xs:element name="surface" type="xs:string"/>
+			<xs:element name="resolution" type="ms:resolutionType"/>
+		</xs:all>
+	</xs:complexType>
+
+	<xs:complexType name="specificationType">
+		<xs:all>
+			<xs:element name="CPU" type="xs:string"/>
+			<xs:element name="RAM" type="xs:string"/>
+			<xs:element name="graphics" type="xs:string"/>
+			<xs:element name="battery" type="ms:batteryType"/>
+			<xs:element name="screen" type="ms:screenType"/>
+		</xs:all>
+	</xs:complexType>
+
+	<xs:simpleType name="currencyType" >
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="PLN"/>
+			<xs:enumeration value="USD"/>
+			<xs:enumeration value="EUR"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="priceRestricted">
+		<xs:restriction base="xs:double">
+			<xs:minInclusive value="1.0"/>
+			<xs:maxExclusive value="10000.00"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="priceType">
+		<xs:simpleContent>
+			<xs:extension base="ms:priceRestricted">
+				<xs:attribute name="currency" type="ms:currencyType" use="required"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:complexType name="laptopType">
+		<xs:all>
+			<xs:element name="makeInList" type="ms:makeInListType">
+				<xs:keyref name="makeRef" refer="ms:makeReference">
+					<xs:selector xpath="laptops/laptop/makeInList"/>
+					<xs:field xpath="@idref"/>
+				</xs:keyref>
+			</xs:element>
+			<xs:element name="fullName" type="ms:fullNameType"/>
+			<xs:element name="ean" type="ms:eanType"/>
+			<xs:element name="specification" type="ms:specificationType"/>
+			<xs:element name="premiere" type="xs:date"/>
+			<xs:element name="price" type="ms:priceType"/>
+		</xs:all>
+		<xs:attribute name="no" type="xs:integer" use="required"/>
+	</xs:complexType>
+
+	<xs:complexType name="laptopsType">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="laptop" type="ms:laptopType"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="storeType">
+		<xs:all>
+			<xs:element name="author" type="ms:authorType"/>
+			<xs:element name="makes" type="ms:makesType"/>
+			<xs:element name="laptops" type="ms:laptopsType">
+
+			</xs:element>
+		</xs:all>
+	</xs:complexType>
+
+	<xs:element name="store" type="ms:storeType"/>
+
+</xs:schema>

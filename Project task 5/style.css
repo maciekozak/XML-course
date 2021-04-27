@@ -1,0 +1,190 @@
+body {
+    background-color: #F1f1f1;
+}
+
+.nav-main {
+    width: 100%;
+    height: 60px;
+    background-color: #FFF;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.btn-toggle-nav {
+    width: 60px;
+    height: 100%;
+    background-color: #f98F39;
+    background-image: url("img/menu.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    cursor: pointer;
+}
+
+.btn-toggle-nav:hover {
+    opacity: 0.5;
+}
+
+.nav-main ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+}
+
+.nav-main ul li {
+    list-style: none;
+    line-height: 30px;
+
+}
+
+.nav-main ul li a {
+    display: block;
+    height: 100%;
+    padding: 0 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #111;
+    font-family: arial;
+    font-size: 16px;
+}
+
+.nav-sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: calc(100vh - 60px);
+    padding: 0 5px;
+    background-color: #1b1b1b;
+    z-index: 1000;  
+    transition: all 0.3s ease-in-out;  
+}
+
+.nav-sidebar ul {
+    padding-top: 15px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.nav-sidebar ul li {
+    line-height: 60px;
+    list-style: none;
+    transition: all 0.3s ease-in-out;  
+}
+
+.nav-sidebar ul li span, .nav-sidebar ul li a  {
+    display: block;
+    height: 60px;
+    padding: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: arial;
+    font-size: 16px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;  
+}
+
+.nav-sidebar ul li a:hover  {
+    background-color: #222;
+}
+
+#custom-button, .saveBtn, .addBtn {
+    padding: 10px;
+    color: white;
+    background-color: #f98F39;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    white-space: nowrap;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;  
+  }
+  
+  #custom-button:hover, .saveBtn:hover, .addBtn:hover {
+    background-color: #444
+  }
+  
+  #custom-text {
+    margin-left: 10px;
+    font-family: sans-serif;
+    color: #aaa;
+  }
+
+  .pc p {
+    font-size: 15px;
+    font-family: arial;
+    color: #1b1b1b;
+    text-align: left;
+    margin-left: 50px;  
+}
+
+
+
+  .pc {
+    margin-top: 160px;
+    margin-left: 160px;
+    display: block;
+    border-radius: 25px;
+    height: 370px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    background-color: #f98F39;
+    font-family: arial;
+    white-space: nowrap;
+}
+
+.pc:hover {
+    height: 380px;
+    width: 610px;
+
+}
+
+.delete-btn {
+    height:32px;
+    width: 32px;
+    background-color: transparent;
+    background-image: url("img/delete.png");
+    background-repeat: no-repeat;
+    border: none;
+    background-size: 100%;
+    background-position: left;
+    margin-left: 16px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    height:32px;
+    width: 32px;
+    background-color: transparent;
+    background-image: url("img/edit.png");
+    background-repeat: no-repeat;
+    border: none;
+    background-size: 100%;
+    background-position: left;
+    margin-left: 16px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.delete-btn:hover, .edit-btn:hover {
+    opacity: 0.5;
+    height: 36px;
+    width: 36px;
+}
+
+hr.underline {
+    border: 2px solid #111;
+    margin: center;
+    margin-left: 40px;
+    margin-right: 100px;
+}

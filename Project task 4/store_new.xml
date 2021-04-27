@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<warehouse>
+   <product>
+      <availability>Yes</availability>
+      <ean>PL583992</ean>
+      <brand>HP</brand>
+      <description>
+         <fullName>HP 14s</fullName>
+         <specification>
+				        <CPU>Intel Core i3-1005G1</CPU>
+				        <RAM>8GB</RAM>
+				        <graphics>Intel UHD Graphics</graphics>
+				        <battery unit="mAh"/>
+				        <screen>
+					          <surface>Mat</surface>
+					          <resolution unit="inch">14.0</resolution>
+				        </screen>
+			      </specification>
+      </description>
+      <netPrice currency="PLN">2449</netPrice>
+      <tax currency="PLN">563.27</tax>
+      <grossPrice currency="PLN">3012.27</grossPrice>
+	  <quantity>2</quantity>
+   </product>
+   <product>
+      <availability>Yes</availability>
+      <ean>DE557204</ean>
+      <brand>Huawei</brand>
+      <description>
+         <fullName>Huawei MateBook D 14</fullName>
+         <specification>
+				        <CPU>AMD Ryzen 5 3500U</CPU>
+				        <RAM>8GB</RAM>
+				        <graphics>AMD Radeon Vega 8</graphics>
+				        <battery unit="mAh">3665</battery>
+				        <screen>
+					          <surface>Mat</surface>
+					          <resolution unit="inch">14.0</resolution>
+				        </screen>
+			      </specification>
+      </description>
+      <netPrice currency="PLN">9986.3</netPrice>
+      <tax currency="PLN">2296.85</tax>
+      <grossPrice currency="PLN">12283.15</grossPrice>
+	  <quantity>13</quantity>
+   </product>
+   <product>
+      <availability>Yes</availability>
+      <ean>PL563179</ean>
+      <brand>Acer</brand>
+      <description>
+         <fullName>Acer Swift 3</fullName>
+         <specification>
+				        <CPU>AMD Ryzen 5 4500U</CPU>
+				        <RAM>16GB</RAM>
+				        <graphics>AMD Radeon Graphic</graphics>
+				        <battery unit="mAh">3203</battery>
+				        <screen>
+					          <surface>Mat</surface>
+					          <resolution unit="inch">14.0</resolution>
+				        </screen>
+			      </specification>
+      </description>
+      <netPrice currency="PLN">3599</netPrice>
+      <tax currency="PLN">827.77</tax>
+      <grossPrice currency="PLN">4426.77</grossPrice>
+	  <quantity>4</quantity>
+   </product>
+   <product>
+      <availability>Yes</availability>
+      <ean>PL520646</ean>
+      <brand>Dell</brand>
+      <description>
+         <fullName>Dell Vostro 3490</fullName>
+         <specification>
+				        <CPU>Intel Core i5-10210U</CPU>
+				        <RAM>8GB</RAM>
+				        <graphics>Intel UHD Graphics</graphics>
+				        <battery unit="mAh">3660</battery>
+				        <screen>
+					          <surface>Mat</surface>
+					          <resolution unit="inch">14.0</resolution>
+				        </screen>
+			      </specification>
+      </description>
+      <netPrice currency="PLN">3399</netPrice>
+      <tax currency="PLN">781.77</tax>
+      <grossPrice currency="PLN">4180.77</grossPrice>
+	  <quantity>17</quantity>
+   </product>
+   <product>
+      <availability>Yes</availability>
+      <ean>DE513826</ean>
+      <brand>HP</brand>
+      <description>
+         <fullName>HP ENVY 13 x360</fullName>
+         <specification>
+				        <CPU>AMD Ryzen 7 3700U</CPU>
+				        <RAM>16GB</RAM>
+				        <graphics>AMD Radeon RX Vega 10</graphics>
+				        <battery unit="mAh">3454</battery>
+				        <screen>
+					          <surface>Glare</surface>
+					          <resolution unit="inch">13.3</resolution>
+				        </screen>
+			      </specification>
+      </description>
+      <netPrice currency="PLN">16276.3</netPrice>
+      <tax currency="PLN">3743.55</tax>
+      <grossPrice currency="PLN">20019.85</grossPrice>
+	  <quantity>4</quantity>
+   </product>
+   <product>
+      <availability>Yes</availability>
+      <ean>PL575758</ean>
+      <brand>Acer</brand>
+      <description>
+         <fullName>Acer Aspire 5</fullName>
+         <specification>
+				        <CPU>Intel Core i5-1035G1</CPU>
+				        <RAM>12GB</RAM>
+				        <graphics>NVIDIA GeForce MX350</graphics>
+				        <battery unit="mAh">4471</battery>
+				        <screen>
+					          <surface>Mat</surface>
+					          <resolution unit="inch">15.6</resolution>
+				        </screen>
+			      </specification>
+      </description>
+      <netPrice currency="PLN">3549</netPrice>
+      <tax currency="PLN">816.27</tax>
+      <grossPrice currency="PLN">4365.27</grossPrice>
+	  <quantity>10</quantity>
+   </product>
+   <product>
+      <availability>Yes</availability>
+      <ean>DE581247</ean>
+      <brand>Acer</brand>
+      <description>
+         <fullName>Acer Swift 3</fullName>
+         <specification>
+				        <CPU>AMD Ryzen 3 4300U</CPU>
+				        <RAM>8GB</RAM>
+				        <graphics>AMD Radeon Graphics</graphics>
+				        <battery unit="mAh">3660</battery>
+				        <screen>
+					          <surface>Mat</surface>
+					          <resolution unit="inch">14.0</resolution>
+				        </screen>
+			      </specification>
+      </description>
+      <netPrice currency="PLN">11470.75</netPrice>
+      <tax currency="PLN">2638.27</tax>
+      <grossPrice currency="PLN">14109.02</grossPrice>
+	  <quantity>8</quantity>
+   </product>
+   <product>
+      <availability>Yes</availability>
+      <ean>PL574554</ean>
+      <brand>Huawei</brand>
+      <description>
+         <fullName>Huawei MateBook 13</fullName>
+         <specification>
+				        <CPU>AMD Ryzen 5 3500U</CPU>
+				        <RAM>8GB</RAM>
+				        <graphics>AMD Radeon Vega 8</graphics>
+				        <battery unit="mAh">3660</battery>
+				        <screen>
+					          <surface>Glare</surface>
+					          <resolution unit="inch">13.0</resolution>
+				        </screen>
+			      </specification>
+      </description>
+      <netPrice currency="PLN">2979</netPrice>
+      <tax currency="PLN">685.17</tax>
+      <grossPrice currency="PLN">3664.17</grossPrice>
+	  <quantity>19</quantity>
+   </product>
+   <product>
+      <availability>Yes</availability>
+      <ean>PL568939</ean>
+      <brand>LG</brand>
+      <description>
+         <fullName>LG GRAM17Z90N</fullName>
+         <specification>
+				        <CPU>Intel Core i7-1065G7</CPU>
+				        <RAM>8GB</RAM>
+				        <graphics>Intel Iris Plus Graphics</graphics>
+				        <battery unit="mAh">5040</battery>
+				        <screen>
+					          <surface>Glare</surface>
+					          <resolution unit="inch">17</resolution>
+				        </screen>
+			      </specification>
+      </description>
+      <netPrice currency="PLN">7299</netPrice>
+      <tax currency="PLN">1678.77</tax>
+      <grossPrice currency="PLN">8977.77</grossPrice>
+	  <quantity>13</quantity>
+   </product>
+   <product>
+      <availability>Yes</availability>
+      <ean>PL576974</ean>
+      <brand>Lenovo</brand>
+      <description>
+         <fullName>Lenovo IdeaPad 3-15</fullName>
+         <specification>
+				        <CPU>Intel Core i5-1035G1</CPU>
+				        <RAM>20GB</RAM>
+				        <graphics>Intel UHD Graphics</graphics>
+				        <battery unit="mAh">4610</battery>
+				        <screen>
+					          <surface>Mat</surface>
+					          <resolution unit="inch">15.6</resolution>
+				        </screen>
+			      </specification>
+      </description>
+      <netPrice currency="PLN">3249</netPrice>
+      <tax currency="PLN">747.27</tax>
+      <grossPrice currency="PLN">3996.27</grossPrice>
+	  <quantity>3</quantity>
+   </product>
+   <product>
+      <availability>Yes</availability>
+      <ean>DE582145</ean>
+      <brand>HP</brand>
+      <description>
+         <fullName>HP 15s</fullName>
+         <specification>
+				        <CPU>AMD Ryzen 5 3500U</CPU>
+				        <RAM>16GB</RAM>
+				        <graphics>AMD Radeon Vega 8</graphics>
+				        <battery unit="mAh">3900</battery>
+				        <screen>
+					          <surface>Mat</surface>
+					          <resolution unit="inch">15.6</resolution>
+				        </screen>
+			      </specification>
+      </description>
+      <netPrice currency="PLN">12745.75</netPrice>
+      <tax currency="PLN">2931.52</tax>
+      <grossPrice currency="PLN">15677.27</grossPrice>
+	  <quantity>22</quantity>
+   </product>
+   <product>
+      <availability>Yes</availability>
+      <ean>DE588471</ean>
+      <brand>Apple</brand>
+      <description>
+         <fullName>Apple MacBook Air</fullName>
+         <specification>
+				        <CPU>AMD Ryzen 3 3250U</CPU>
+				        <RAM>8GB</RAM>
+				        <graphics>AMD Radeon Graphics</graphics>
+				        <battery unit="mAh">3500</battery>
+				        <screen>
+					          <surface>Mat</surface>
+					          <resolution unit="inch">14.0</resolution>
+				        </screen>
+			      </specification>
+      </description>
+      <netPrice currency="PLN">4436.3</netPrice>
+      <tax currency="PLN">1020.35</tax>
+      <grossPrice currency="PLN">5456.65</grossPrice>
+	  <quantity>12</quantity>
+   </product>
+   <product>
+      <availability>Yes</availability>
+      <ean>PL553995</ean>
+      <brand>Apple</brand>
+      <description>
+         <fullName>Apple MacBook Air</fullName>
+         <specification>
+				        <CPU>Intel Core i5-1030NG7</CPU>
+				        <RAM>8GB</RAM>
+				        <graphics>Intel Iris Plus Graphics</graphics>
+				        <battery unit="mAh">2890</battery>
+				        <screen>
+					          <surface>Glare</surface>
+					          <resolution unit="inch">13.3</resolution>
+				        </screen>
+			      </specification>
+      </description>
+      <netPrice currency="PLN">5399</netPrice>
+      <tax currency="PLN">1241.77</tax>
+      <grossPrice currency="PLN">6640.77</grossPrice>
+	  <quantity>1</quantity>
+   </product>
+   <product>
+      <availability>Yes</availability>
+      <ean>PL572924</ean>
+      <brand>Dell</brand>
+      <description>
+         <fullName>Dell Inspiron 5505</fullName>
+         <specification>
+				        <CPU>AMD Ryzen 5 4500U</CPU>
+				        <RAM>16GB</RAM>
+				        <graphics>AMD Radeon Graphics</graphics>
+				        <battery unit="mAh">3378</battery>
+				        <screen>
+					          <surface>Mat</surface>
+					          <resolution unit="inch">15.6</resolution>
+				        </screen>
+			      </specification>
+      </description>
+      <netPrice currency="PLN">3899</netPrice>
+      <tax currency="PLN">896.77</tax>
+      <grossPrice currency="PLN">4795.77</grossPrice>
+	  <quantity>11</quantity>
+   </product>
+   <product>
+      <availability>Yes</availability>
+      <ean>PL588471</ean>
+      <brand>ASUS</brand>
+      <description>
+         <fullName>ASUS D413DA-EK260T</fullName>
+         <specification>
+				        <CPU>AMD Ryzen 3 3250U</CPU>
+				        <RAM>8GB</RAM>
+				        <graphics>AMD Radeon Graphics</graphics>
+				        <battery unit="mAh">3299</battery>
+				        <screen>
+					          <surface>Mat</surface>
+					          <resolution unit="inch">14.0</resolution>
+				        </screen>
+			      </specification>
+      </description>
+      <netPrice currency="PLN">2199</netPrice>
+      <tax currency="PLN">505.77</tax>
+      <grossPrice currency="PLN">2704.77</grossPrice>
+	  <quantity>13</quantity>
+   </product>
+   <product>
+      <availability>Yes</availability>
+      <ean>PL588288</ean>
+      <brand>ASUS</brand>
+      <description>
+         <fullName>ASUS TUF FX505GT</fullName>
+         <specification>
+				        <CPU>Intel Core i5-9300H</CPU>
+				        <RAM>16GB</RAM>
+				        <graphics>NVIDIA GeForce GTX 1650</graphics>
+				        <battery unit="mAh">4212</battery>
+				        <screen>
+					          <surface>Mat</surface>
+					          <resolution unit="inch">15.6</resolution>
+				        </screen>
+			      </specification>
+      </description>
+      <netPrice currency="PLN">4099</netPrice>
+      <tax currency="PLN">942.77</tax>
+      <grossPrice currency="PLN">5041.77</grossPrice>
+	  <quantity>5</quantity>
+   </product>
+   <product>
+      <availability>Yes</availability>
+      <ean>PL571702</ean>
+      <brand>Acer</brand>
+      <description>
+         <fullName>Acer Nitro 5</fullName>
+         <specification>
+				        <CPU>Intel Core i5-10300H</CPU>
+				        <RAM>16GB</RAM>
+				        <graphics>NVIDIA GF GTX 1650Ti</graphics>
+				        <battery unit="mAh">3405</battery>
+				        <screen>
+					          <surface>Mat</surface>
+					          <resolution unit="inch">15.6</resolution>
+				        </screen>
+			      </specification>
+      </description>
+      <netPrice currency="PLN">4049</netPrice>
+      <tax currency="PLN">931.27</tax>
+      <grossPrice currency="PLN">4980.27</grossPrice>
+	  <quantity>11</quantity>
+   </product>
+   <product>
+      <availability>Yes</availability>
+      <ean>DE541793</ean>
+      <brand>Huawei</brand>
+      <description>
+         <fullName>Huawei MateBook D 15</fullName>
+         <specification>
+				        <CPU>AMD Ryzen 5 3500U</CPU>
+				        <RAM>8GB</RAM>
+				        <graphics>AMD Radeon Vega 8</graphics>
+				        <battery unit="mAh">3665</battery>
+				        <screen>
+					          <surface>Mat</surface>
+					          <resolution unit="inch">15.6</resolution>
+				        </screen>
+			      </specification>
+      </description>
+      <netPrice currency="PLN">4458.25</netPrice>
+      <tax currency="PLN">1025.4</tax>
+      <grossPrice currency="PLN">5483.65</grossPrice>
+	  <quantity>12</quantity>
+   </product>
+   <product>
+      <availability>No</availability>
+      <ean>DE541793</ean>
+      <brand>Huawei</brand>
+      <description>
+         <fullName>Huawei MateBook D 15</fullName>
+         <specification>
+				        <CPU>AMD Ryzen 5 3500U</CPU>
+				        <RAM>8GB</RAM>
+				        <graphics>AMD Radeon Vega 8</graphics>
+				        <battery unit="mAh">3665</battery>
+				        <screen>
+					          <surface>Mat</surface>
+					          <resolution unit="inch">15.6</resolution>
+				        </screen>
+			      </specification>
+      </description>
+      <netPrice currency="PLN">12958.25</netPrice>
+      <tax currency="PLN">2980.4</tax>
+      <grossPrice currency="PLN">15938.65</grossPrice>
+	  <quantity>0</quantity>
+   </product>
+   <product>
+      <availability>No</availability>
+      <ean>DE570331</ean>
+      <brand>Lenovo</brand>
+      <description>
+         <fullName>Lenovo IdeaPad L340-17</fullName>
+         <specification>
+				        <CPU>Intel Core i5-9300HF</CPU>
+				        <RAM>16GB</RAM>
+				        <graphics>NVIDIA GeForce GTX 1650</graphics>
+				        <battery unit="mAh">4000</battery>
+				        <screen>
+					          <surface>Mat</surface>
+					          <resolution unit="inch">17.3</resolution>
+				        </screen>
+			      </specification>
+      </description>
+      <netPrice currency="PLN">13686.3</netPrice>
+      <tax currency="PLN">3147.85</tax>
+      <grossPrice currency="PLN">16834.15</grossPrice>
+	  <quantity>0</quantity>
+   </product>
+   <product>
+      <availability>No</availability>
+      <ean>PL559979</ean>
+      <brand>MSI</brand>
+      <description>
+         <fullName>MSI GL65</fullName>
+         <specification>
+				        <CPU>Intel Core i5-10300H</CPU>
+				        <RAM>8GB</RAM>
+				        <graphics>NVIDIA GeForce GTX 1650</graphics>
+				        <battery unit="mAh">3834</battery>
+				        <screen>
+					          <surface>Mat</surface>
+					          <resolution unit="inch">15.6</resolution>
+				        </screen>
+			      </specification>
+      </description>
+      <netPrice currency="PLN">3499</netPrice>
+      <tax currency="PLN">804.77</tax>
+      <grossPrice currency="PLN">4303.77</grossPrice>
+	  <quantity>0</quantity>
+   </product>
+   <summary>
+      <positions>21</positions>
+      <positionsPL>13</positionsPL>
+      <positionsDE>8</positionsDE>
+      <totalValuePLN currency="PLN">49667</totalValuePLN>
+      <totalValueEUR currency="EUR">9796</totalValueEUR>
+      <totalValueUSD currency="USD">11996</totalValueUSD>
+      <unavailable>3</unavailable>
+      <dateReport>12/21/2020</dateReport>
+   </summary>
+</warehouse>

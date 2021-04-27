@@ -1,0 +1,43 @@
+<!ELEMENT root (author?, makes, laptops)>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT IDno (#PCDATA)>
+<!ELEMENT date_of_mod (#PCDATA)>
+<!ELEMENT faculty (#PCDATA)>
+<!ELEMENT make (#PCDATA)>
+<!ELEMENT fullName (#PCDATA)>
+<!ELEMENT ID (#PCDATA)>
+<!ELEMENT CPU (#PCDATA)>
+<!ELEMENT RAM (#PCDATA)>
+<!ELEMENT GraphicsCard (#PCDATA)>
+<!ELEMENT battery (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT premiere (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+
+<!ELEMENT author (name, surname, IDno, date_of_mod, faculty, course?, University?)>
+<!ELEMENT makes (make+)>
+<!ELEMENT laptops (laptop*)>
+<!ELEMENT laptop (makeInList, fullName, ID, specification, premiere?, price)>
+<!ELEMENT specification (CPU, RAM, GraphicsCard, battery, screen)>
+<!ELEMENT screen (type, size)>
+
+<!ELEMENT course EMPTY>
+<!ELEMENT University EMPTY>
+<!ELEMENT makeInList EMPTY>
+
+<!ATTLIST course whatC NMTOKENS #FIXED "Information Technology">
+<!ATTLIST University whatU NMTOKEN #FIXED "TUL">
+
+<!ATTLIST make id ID  #REQUIRED>
+<!ATTLIST makeInList idref IDREF #REQUIRED>
+<!ATTLIST make origin CDATA #IMPLIED>
+
+<!ATTLIST laptop no CDATA #REQUIRED>
+<!ATTLIST RAM type NMTOKEN #FIXED "GB">
+<!ATTLIST battery type CDATA #REQUIRED>
+<!ATTLIST size type (inch | cm ) #IMPLIED>
+<!ATTLIST price type CDATA #REQUIRED>
+
